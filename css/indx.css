@@ -1,0 +1,866 @@
+/*
+* @Author: asus1
+* @Date:   2017-10-17 16:00:43
+* @Last Modified by:   asus1
+* @Last Modified time: 2017-10-20 17:26:32
+*/
+.a{
+	width: 100%;
+	height: 120px;
+	display: block;
+	background-image: url('../image/guanwang.jpg');
+	/*背景图片导入，URL（相对路径）*/
+	background-size: cover; 
+	/*背景图片大小
+	cover：等比放大或缩小，会永远充满容器
+	contain：等比放大或缩小，永远会显示完整图片 不充满容器
+	*/
+	background-repeat: no-repeat;
+	/*背景图片重复 repeat（重复）*/
+	background-position: center center;
+	/*背景位置 center（居中）*/
+}
+.nav{
+	width: 100%;
+	height: 40px;
+	background: #333333;
+	padding: 0px 86px;
+
+}
+.nav-left{
+	width: 1000px;
+	height: 100%;
+	float: left;
+}
+.nav-right{
+	width: 150px;
+	height: 100%;
+	float: left;
+
+}
+.nav>div>div>div{
+	font-size: 14px;
+	float: left;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align: center;
+	
+
+}
+.nav>div>div>div>a{
+	color: #B0B0B0;
+}
+.navbox{
+	float: left;
+	width: calc(100%-300px);
+	padding-top: 10px;
+	padding-right: 10px;
+}
+.gouwuche{
+	width: 120px;
+	height: : 100%;
+	float: left;
+	color: #b0b0b0;
+	background: #424242;
+	line-height: 39.5px;
+	text-align: center;
+}
+.gouwuche:hover{
+	color: #ff6700;
+	background: #fff;
+
+}
+.nav>div>div>div>a:hover{
+	color: #fff;
+}
+.nav-leftzi{
+	border-right: 1px solid #424242 ;
+}
+.nav-rightzi{
+	border-right: 1px solid #424242 ;
+}
+.nav-left>div:first-child{  /*伪类选择器*/
+	padding-left: 0;
+}
+.nav-left>div:last-child{
+	padding-right: 0;
+}
+.nav-right>div:first-child{
+	padding-left: 0;
+}
+.nav-right>div:last-child{
+	padding-right: 0;
+}
+.xiaomi{
+	width: 70px;
+	height: 70px;
+	display: block;
+	background-image: url('../image/mitubiao.png');	
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-top: 100px;
+	padding-left: 230px;
+}
+.xiaomibox{
+	width: 400px;
+	height: 100%;
+	float: left;
+}
+.liebiao{
+	width: 650px;
+	height: 100%;
+	float: left;
+}
+.liebiaobox{
+	width: 100%;
+	height: 100px;
+
+}
+.liebiaozi>a{
+	float: left ;
+	padding-left: 8px;
+	padding-right: 8px;
+	line-height: 100px;
+	color: #000;
+}
+.liebiaozi>a:hover{
+	color: #ff6700;
+}
+.sousuobox{
+	float: left;
+	width: 315px;
+	height: 100%;
+	padding-top: 30px;
+}
+.sousuo{
+	width: 315px;
+	height: 50px;
+	float: left;
+	border: 1px solid #b0b0b0;
+}
+.souzuo{
+	width: 265px;
+	height: 48px;
+	border-right: 1px solid #b0b0b0;
+	float: left;
+	cursor: 
+}
+.souyou{
+	width: 48px;
+	height: 48px;
+	float: left;
+}
+.souzuonr{
+	float: left;
+}
+.souzuo>div>a{
+	font-size: 12px;
+	color: #b0b0b0;
+	margin-left: 15px;
+	line-height: 50px;
+}
+.souyou:hover{
+	background: #ff6700;
+	color: #fff;
+}
+.souzuo:hover{
+	border-right: 1px solid #272822;
+}
+.sousuo:hover{
+	border: 1px solid #272822;
+}
+.souzuonr>a:hover{
+	color: #fff;
+	background: #ff6700;
+}
+.souyou>i{
+	font-weight: 600;
+	line-height: 50px;
+	display: block;
+	text-align: center;
+}
+.banner{
+	width: 1276px;
+	height: 460px;
+	float: left;
+}
+.bannerbox{
+	width: 100%;
+	height: 460px;
+	padding-left: 88px;
+	float: left;
+	position: relative;
+}
+.bannerbox>img{
+	position: absolute;
+	top: 0;
+	left: 88px;
+}
+.zuoliebiaobox{
+	width: 260px;
+	height: 100%;
+	background: rgba(0, 0, 0, .5);
+	float: left;
+	padding-top: 20px;
+	position: absolute;
+	top: 0;
+	left: 88px;
+}
+.zuoliebiao{
+	width: 100%;
+	height: 42px;
+	float: left;
+	padding-left: 20px;
+	line-height: 42px;
+	padding-right: 20px;
+	cursor: pointer;
+}
+.zuoliebiao>a{
+	color: #E6E7EA;
+
+}
+.zuoliebiao:hover{
+	background: #ff6700;
+}
+.zuoliebiao>a>i{
+	float: right;
+	font-weight: 600;
+}
+.youbianbox{
+	width: 1016px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 348px;
+	padding-left: 15px;
+	padding-right: 15px;
+	float: left;
+}
+.zuo{
+	width: 25px;
+	height: 60px;
+	float: left;
+	margin-top: 200px;
+	line-height: 60px;
+}
+.zuo>a{
+	color: #b0b0b0;
+}
+.zuo:hover{
+	background: #1A2C55;
+}
+.zuo>a>i{
+	font-size: 28px;
+}
+.you{
+	width: 25px;
+	height: 60px;
+	float: right;
+	margin-top: 200px;
+	line-height: 60px;
+
+}
+.you>a{
+	color: #b0b0b0;
+}
+.you:hover{
+	background: #1A2C55;
+}
+.you>a>i{
+	font-size: 28px;
+}
+.lbd{
+	width: 120px;
+	height: 10px;
+	position: absolute;
+	right: 40px;
+	bottom: 20px;
+}
+.lbd>li{
+	width: 10px;
+	height: 10px;
+	float: left;
+	margin-left: 10px;
+	border-radius: 100%;
+	border: 2px solid rgba(150, 150, 150, .3);
+	background: rgba(0, 0, 0, .3)
+}
+.lbd>li:hover{
+	background: rgba(255, 255, 255, .3);
+	border: 2px solid #a0a0a0;
+}
+.lanmubox{
+	width: 100%;
+	height: 180px;
+	float: left;
+	padding-left: 88px;
+	padding-top: 15px;
+}
+.gongjubox{
+	width: 260px;
+	height: 100%;
+	background: #5F5750;
+	float: left;
+}
+.gongju{
+	width: 86.5px;
+	height: 85px;
+	float: left;
+	padding-top: 15px;
+	cursor: pointer;
+}
+.gongju>i{
+	color: #CFCDCB;
+	font-size: 30px;
+	margin-left: 30px;
+}
+.gongju>a{
+	font-size: 14px;
+	color: #CFCDCB;
+	float: left;
+	margin-left: 15px;
+}
+.gongju>i:hover{
+	color: #fff ;
+}
+.gongju>a:hover{
+	color: #fff ;
+}
+.guanggaobox{
+	width: 1016px;
+	height: 100%;
+	float: left;
+}
+.guanggaobox>img{
+	width: 323.5px;
+	height: 100%;
+	float: left;
+	margin-left: 15px;
+	cursor: pointer;
+}
+.mingxingbox{
+	width: 100%;
+	height: 70px;
+	padding-left: 88px;
+	float: left;
+	padding-right: 155px;
+	margin-top: 30px;
+}
+.mingxing{
+	font-size: 24px;
+	font-weight: 200;
+	float: left;
+	margin-top: 40px;
+}
+.jt{
+	width: 40px;
+	height: 20px;
+	border: 1px solid #CFCDCB;
+	float: right;
+	margin-top: 50px;
+	cursor: pointer;
+}
+.jt>i{
+	color: #CFCDCB;
+	margin-left: 10px;
+	font-weight: 600;
+}
+.jt>i:hover{
+	color: #ff6700;
+}
+.shangpinbox{
+	width: 100%;
+	height: 300px;
+	float: left;
+	padding-left: 88px;
+}
+.shangpin{
+	width: 255px;
+	height: 100%;
+	float: left;
+	padding-top: 15px;
+
+}
+.xian1{
+	width: 90%;
+	height: 1px;
+	background: #FFAC13;
+}
+.xian2{
+	width: 90%;
+	height: 1px;
+	background: #83C44E; 
+}.xian3{
+	width: 90%;
+	height: 1px;
+	background: #2196F3; 
+}.xian4{
+	width: 90%;
+	height: 1px;
+	background: #E53935;
+}.xian5{
+	width: 100%;
+	height: 1px;
+	background: #00C0A5;
+}
+.sp{
+	width: 150px;
+	height: 150px;
+	margin-top: 30px;
+	margin-left: 30px;
+	cursor: pointer;
+}
+.jieshao{
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+.da{
+	cursor: pointer;
+}
+.zhong{
+	font-size: 12px;
+	color: #a0a0a0;
+
+}
+.xiao{
+	font-size: 16px;
+	color: #ff6700;
+}
+.jieshao1{
+	float: left;
+	margin-top: 20px;
+	margin-left: 70px;
+	text-align: center;
+	line-height: 30px;
+}
+.sp1{
+	width: 150px;
+	height: 150px;
+	margin-top: 30px;
+	margin-left: 50px;
+	cursor: pointer;
+}
+.jiadianbox{
+	width: 100%;
+	height: 800px;
+	padding-left: 88px;
+	float: left;
+	padding-right: 155px;
+	padding-top: 100px;
+}
+.jiadian{
+	font-size: 24px;
+	font-weight: 200;
+}
+.changtu{
+	width: 243px;
+	height: 650px;
+	margin-top: 50px;
+	float: left;
+	cursor: pointer;
+}
+.changtu1{
+	width: 243px;
+	height: 650px;
+	margin-top: 50px;
+	float: left;
+	cursor: pointer;
+}
+.baitiao{
+	width: 100%;
+	height: 20px;
+	float: left;
+}
+.changtu1>img{
+	height: 315px;
+}
+.xuanxiang{
+	height: 25px;
+	margin-left: 30px;
+	float: right;
+}
+.xuanxiang:hover{
+	border-bottom: 2px solid #ff6700;
+	color: #ff6700;
+}
+.duantubox{
+	width: 238px;
+	height: 325px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 20px;
+	position: relative;
+	overflow: hidden;
+}
+.duantubox1{
+	width: 238px;
+	height: 325px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 20px;
+	position: relative;
+	overflow: hidden;
+}
+.tanchu{
+	background: #ff4700;
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	bottom: -100px;
+	transition: all ease 0.5s;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	border-radius: 6px;
+}
+.tanchu>span{
+	color: #fff ;
+	text-align: center;
+}
+.tanchu>p{
+	font-size: 12px;
+	color: #a0a0a0;
+	text-align: center;
+}
+.duantubox:hover .tanchu{
+	transform: translateY(-100px);
+}
+.duantubox1:hover .tanchu{
+	transform: translateY(-100px);
+}
+.duantubox2:hover .tanchu{
+	transform: translateY(-100px);
+}
+.duantubox2{
+	width: 238px;
+	height: 325px;
+	float: left;
+	margin-left: 20px;
+	position: relative;
+	overflow: hidden;
+}
+.iteam{
+	margin-left: 0px;
+	margin-top: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+.zksp{
+	width: 150px;
+	height: 150px;
+	margin-top: 45px;
+	margin-left: 45px;
+	cursor: pointer;
+}
+.xiaotubox{
+	width: 238px;
+	height: 162.5px;
+	float: left;
+	padding-top: 40px;
+	padding-right: 20px;
+}
+.xiaotubox1{
+	width: 238px;
+	height: 162.5px;
+	float: left;
+	padding-top: 60px;
+	padding-right: 50px;
+}
+.xiaotubox>img{
+	width: 100px;
+	height: 100px;
+	float: right;
+	cursor: pointer;
+}
+.xiaotubox1>img{
+	width: 60px;
+	height: 60px;
+	float: right;
+	cursor: pointer;
+}
+.xiaotubox>ul>li{
+	float: left;
+	line-height: 30px;
+	margin-left: 30px;
+}
+.xiaotubox1>ul>li{
+	float: left;
+	margin-left: 30px;
+}
+.shang{
+	margin-top: 30px;
+	cursor: pointer;
+}
+.xia{
+	color: #ff4700;
+}
+.shang1{
+	margin-top: 10px;
+	cursor: pointer;
+}
+.xia1{
+	color: #a0a0a0;
+	font-size: 10px;
+}
+.repingbox{
+	width: 100%;
+	height: 500px;
+	padding-left: 88px;
+	float: left;
+}
+.reping{
+	width: 304px;
+	height: 380px;
+	float: left;
+}
+.reping1{
+	width: 304px;
+	height: 380px;
+	float: left;
+	margin-left: 20px;
+}
+.mingxing1{
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	font-size: 24px;
+	font-weight: 200;
+	text-align: left;
+}
+.reping>img{
+	width: 100%;
+	height: 50%;
+	float: left;
+	cursor: pointer;
+}
+.reping1>img{
+	width: 100%;
+	height: 50%;
+	float: left;
+	cursor: pointer;
+}
+.aaa{
+	float: left;
+	margin-right: 30px;
+	margin-left: 30px;
+	line-height: 30px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.bbb{
+	font-size: 12px;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-top: 20px;
+	text-align: left;
+	color: #a0a0a0;
+}
+.ccc{
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-top: 20px;
+	float:left;
+	cursor: pointer;
+}
+.ddd{
+	float: left;
+	margin-top: 20px;
+	color: #ff4700;
+}
+.neirong1{
+	width: 304px;
+	height: auto;
+	margin-right: 20px;
+	float: left;
+}
+.neirong2{
+	width: 304px;
+	height: auto;
+	float: left;
+	margin-right: 20px;
+}
+.neirong3{
+	width: 304px;
+	height: auto;
+	float: left;
+	margin-right: 20px;
+}
+.neirong4{
+	width: 304px;
+	height: auto;
+	float: left;
+	margin-right: 20px;
+}
+.xt1{
+	height: 1px;
+	width: 100%;
+	background: #83C44E;
+}
+.xt2{
+	height: 1px;
+	width: 100%;
+	background: #2196F3;
+}
+.xt3{
+	height: 1px;
+	width: 100%;
+	background: #E53935;
+}
+.xt4{
+	height: 1px;
+	width: 100%;
+	background: #00C0A5;
+}
+
+.aa{
+	margin-top: 50px;
+	text-align: center;
+	color: #83C44E;
+	line-height: 20px;
+}
+.ss{
+	margin-top: 15px;
+	text-align: center;
+	color: #000;
+	line-height: 30px;
+	font-size: 20px;
+}
+.dd{
+	text-align: center;
+	color: #a0a0a0;
+	line-height: 30px;
+	font-size: 14px;
+}
+.ff{
+	text-align: center;
+	color: #000;
+	line-height: 30px;	
+}
+.shipinbox{
+	width: 100%;
+	height: auto;
+	padding-left: 88px;
+	float: left;
+	position: relative;
+}
+.shipin{
+	width: 304px;
+	height: 380px;
+	float: left;
+}
+.shipin1{
+	width: 304px;
+	height: 380px;
+	float: left;
+	margin-left: 20px;
+}
+.shipin>img{
+	width: 100%;
+	height: 50%;
+	cursor: pointer;
+}
+.shipin1>img{
+	width: 100%;
+	height: 50%;
+	cursor: pointer;
+}
+.qqq{
+	margin-top: 30px;
+	text-align: center;
+	line-height: 10px;
+	font-size: 14px;
+	cursor: pointer;
+}
+.qqq:hover{
+	color: #ff4700;
+}
+.www{
+	text-align: center;
+	line-height: 20px;
+	margin-top: 10px;
+	font-size: 12px;
+	color: #a0a0a0;
+}
+.bofang{
+	width: 45px;
+	height: 25px;
+	border: 2px solid #fff;
+	float: left;
+	position: absolute;
+	top: 260px;
+	left: 100px;
+	padding-left: 12px;
+	cursor: pointer;
+	border-radius: 12.5px;
+}
+.bofang>i{
+	color: #fff;
+	font-size: 16px;
+}
+.shipin:hover .bofang{
+	background: #ff4700;
+	border: 2px solid #ff4700;
+}
+.bofang1{
+	width: 45px;
+	height: 25px;
+	border: 2px solid #fff;
+	float: left;
+	position: absolute;
+	top: 260px;
+	left: 425px;
+	padding-left: 12px;
+	cursor: pointer;
+	border-radius: 12.5px;
+}
+.bofang1>i{
+	color: #fff;
+	font-size: 16px;
+}
+.shipin1:hover .bofang1{
+	background: #ff4700;
+	border: 2px solid #ff4700;
+}
+.bofang2{
+	width: 45px;
+	height: 25px;
+	border: 2px solid #fff;
+	float: left;
+	position: absolute;
+	top: 260px;
+	left: 750px;
+	padding-left: 12px;
+	cursor: pointer;
+	border-radius: 12.5px;
+}
+.bofang2>i{
+	color: #fff;
+	font-size: 16px;
+}
+.shipin1:hover .bofang2{
+	background: #ff4700;
+	border: 2px solid #ff4700;
+}
+.bofang3{
+	width: 45px;
+	height: 25px;
+	border: 2px solid #fff;
+	float: left;
+	position: absolute;
+	top: 260px;
+	left: 1075px;
+	padding-left: 12px;
+	cursor: pointer;
+	border-radius: 12.5px;
+}
+.bofang3>i{
+	color: #fff;
+	font-size: 16px;
+}
+.shipin1:hover .bofang3{
+	background: #ff4700;
+	border: 2px solid #ff4700;
+}
